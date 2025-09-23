@@ -5,8 +5,10 @@
         border: 1rem solid transparent;
         border-image:  url(../assets/geep.png) 30 round;
         overflow: hidden;
+        height: auto;
+        display: block;
     }
-    @media (width >= 80rem) {
+    @media(width >= 80rem) {
         justify-content: center;
     }
 }
@@ -16,6 +18,8 @@
     img {   
         max-width: 100%;
         width: 16.3125rem;
+        height: auto;
+        display: block;
     }
 
     & h1 {
@@ -24,15 +28,15 @@
         color: white;
     }
 
-    @media (width >= 80rem) {
+    @media(width >= 80rem) {
         background: url(../assets/geep.png); 
-        border-radius: .5rem;
+        border-radius: 0.5rem;
         justify-content: center;
         img {
             width: 27.3125rem;
         }
         h1 {
-            /* padding-bottom: 30rem; */
+            padding-bottom: 1rem;
         }
     }  
 }

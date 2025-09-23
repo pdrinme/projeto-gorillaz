@@ -20,5 +20,4 @@
 body {
     background: url(../assets/geep-blur.png) no-repeat center;
     background-size: cover;
-    @media (width >= 80rem) {}
     }

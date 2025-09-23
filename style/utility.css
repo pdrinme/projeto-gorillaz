@@ -1,0 +1,19 @@
+.container {
+    --max-width: 375px;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.even-columns {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (width >= 80rem) {
+    .even-columns {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}

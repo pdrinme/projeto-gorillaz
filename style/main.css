@@ -1,0 +1,40 @@
+.cover {
+    justify-content: center;
+    img {
+        max-width: 100%;
+        border: 1rem solid transparent;
+        border-image:  url(../assets/geep.png) 30 round;
+        overflow: hidden;
+    }
+    @media (width >= 80rem) {
+        justify-content: left;
+    }
+}
+
+.logo {
+    justify-content: center;
+    img {   
+        max-width: 100%;
+        width: 16.3125rem;
+    }
+
+    & h1 {
+        font: var(--text-primary);
+        padding-bottom: 0;
+    }
+
+    @media (width >= 80rem) {
+        justify-content: center;
+        img {
+            width: 27.3125rem;
+        }
+        h1 {
+            padding-bottom: 30rem;
+        }
+    }
+}
+
+footer {
+    display: grid;
+    justify-items: center;
+}

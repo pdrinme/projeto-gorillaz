@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ff: "Alan Sans", sans-serif;
+    --text-primary:400 2.5rem/1 var(--ff);
+}
+
+.grid {
+    display: grid;
+}

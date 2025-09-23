@@ -7,11 +7,11 @@
         overflow: hidden;
     }
     @media (width >= 80rem) {
-        justify-content: left;
+        justify-content: center;
     }
 }
 
-.logo {
+.logo { 
     justify-content: center;
     img {   
         max-width: 100%;
@@ -21,20 +21,28 @@
     & h1 {
         font: var(--text-primary);
         padding-bottom: 0;
+        color: white;
     }
 
     @media (width >= 80rem) {
+        background: url(../assets/geep.png); 
+        border-radius: .5rem;
         justify-content: center;
         img {
             width: 27.3125rem;
         }
         h1 {
-            padding-bottom: 30rem;
+            /* padding-bottom: 30rem; */
         }
-    }
+    }  
 }
 
 footer {
     display: grid;
     justify-items: center;
+
+    p {
+        font: var(--text-secondary);
+        color: white;
+    }
 }

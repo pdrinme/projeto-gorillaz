@@ -9,8 +9,16 @@
 :root {
     --ff: "Alan Sans", sans-serif;
     --text-primary:400 2.5rem/1 var(--ff);
+    --text-secondary:400 1rem/1 var(--ff);
 }
 
 .grid {
     display: grid;
 }
+
+
+body {
+    background: url(../assets/geep-blur.png) no-repeat center;
+    background-size: cover;
+    @media (width >= 80rem) {}
+    }

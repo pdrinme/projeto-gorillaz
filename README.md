@@ -26,7 +26,7 @@ O design da página busca refletir o espírito visual do álbum:
 tons de verde, preto e vermelho, elementos gráficos simples e referências às animações originais da banda.
 
 Se quiser visualizar o projeto em ação:  
-👉 [**Acesse a página aqui**](https://pdrinme.github.io/projeto-gorillaz/) *(adicione o link do GitHub Pages ou Vercel quando disponível)*
+👉 [**Acesse a página aqui**](https://pdrinme.github.io/projeto-gorillaz/)
 
 ## 🚀 Como Executar Localmente
 
